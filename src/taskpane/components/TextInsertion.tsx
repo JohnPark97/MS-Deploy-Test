@@ -42,7 +42,7 @@ const TextInsertion: React.FC = () => {
       <Field className={styles.textAreaField} size="large" label="Enter text to be inserted into the document.">
         <Textarea size="large" value={text} onChange={handleTextChange} />
       </Field>
-      <Field className={styles.instructions}>Click the button to insert text.</Field>
+      <Field className={styles.instructions}>John Click Test</Field>
       <Button appearance="primary" disabled={false} size="large" onClick={handleTextInsertion}>
         Insert text
       </Button>
